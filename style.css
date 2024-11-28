@@ -1,0 +1,219 @@
+.navber{
+    position: sticky;
+    padding-top: 30px;
+    position: sticky;
+    background-color: rgb(5, 5, 207);
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 80px;
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ li{
+    list-style: none;
+    display: inline-block;
+    }
+
+li a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+    }
+
+ul li a:hover{
+    color: rgb(244, 245, 247);
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 50px;
+    color: white;}
+
+.logo span{
+    color:red;
+}
+.first-button{
+    padding-right: 50px;
+}
+.cv-button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    
+}
+.cv-button:hover{
+    background-color: rgb(9, 31, 235);
+    color: white;
+    font-weight: 500;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+   }
+
+   /* 1st section style started here */
+h1{
+    font-size: 50px;
+}   
+h2{
+    font-size: 40px;
+}
+
+
+.text-white{
+    color: white;
+}
+.flexible-container{
+    display: flex;
+    padding: 10%;
+    
+}
+
+/* 1st section style started here */
+.half-width{
+    width: 50%;
+}
+img{
+    width: 80%;
+    border-radius: 0%;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(blue,blueviolet);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    
+}
+
+.top-banner{
+    background-image: url(./img/wave.svg);
+    background-repeat: no-repeat;
+}
+
+.about-me{
+    padding-top: 30px;
+}
+
+.second-section{
+    
+    display: flex;
+    padding: 10%;
+}
+
+/* 3rd section style started here */
+.specialize-head{
+    text-align: center;
+    padding: 0% 20%;
+    padding-top: 20px;
+}
+
+.parent-div{
+    display: flex;
+    padding: 0 5%;
+}
+
+.child{
+    box-shadow: 10px 5px 30px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient( cyan, blue) 0 100%;
+    
+}
+.child:hover{
+
+    scale: 0.9;
+    transition: all ease-in;
+}
+
+  .last{
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .contact-me{
+    text-align: center;
+    padding-top: 50px;
+    gap: 0px;
+
+  }
+  
+
+  .location-second{
+   padding-bottom: 20px;
+  }
+
+  .portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    
+  }
+  .portfolio img{
+    height: 350px;
+    width: 350px;
+ }
+  
+
+/* footer style started here */
+footer{
+    background: blue;
+    padding-top: 80px;
+    padding: 30px;
+
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.list{
+    display: block;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
